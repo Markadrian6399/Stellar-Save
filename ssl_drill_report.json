@@ -1,26 +1,26 @@
 {
-  "drill_date": "2026-08-01T05:57:19Z",
+  "drill_date": "2026-09-01T08:16:54Z",
   "target": "localhost:443",
   "dry_run": false,
   "status": "passed",
-  "rotation_duration_ms": 44,
+  "rotation_duration_ms": 39,
   "load_probe": {
     "duration_seconds": 60,
     "requests_per_second": 10,
-    "total_requests": 517,
+    "total_requests": 519,
     "failed_requests": 0,
     "zero_downtime_confirmed": true
   },
   "certificate": {
     "before": {
       "cn": "staging-old.stellar-save.local,O=StellarSave,C=US",
-      "expires": "Aug  2 05:56:16 2026 GMT",
-      "sha256_fingerprint": "E1:7D:A1:15:4D:AF:E7:A1:EA:D6:A8:34:36:11:1D:95:35:CD:89:90:85:9C:E8:52:CD:17:E4:78:47:84:22:58"
+      "expires": "Sep  2 08:15:51 2026 GMT",
+      "sha256_fingerprint": "7F:4C:CF:D4:99:40:11:2F:9A:98:74:14:44:4F:34:A9:3D:48:BA:43:21:FC:06:19:51:7B:20:0E:BD:52:40:29"
     },
     "after": {
       "cn": "staging-new.stellar-save.local,O=StellarSave,C=US",
-      "expires": "Oct 30 05:56:16 2026 GMT",
-      "sha256_fingerprint": "84:AA:03:60:00:F4:43:09:0B:82:55:1B:D6:61:F1:E1:E8:67:D0:E7:51:56:6A:B2:B6:77:C2:9C:0B:FC:7A:33"
+      "expires": "Nov 30 08:15:51 2026 GMT",
+      "sha256_fingerprint": "B6:00:91:1B:A5:DB:FB:5F:78:76:E2:63:75:0D:74:7E:01:F3:F0:69:82:06:A4:62:0F:50:72:51:29:69:91:41"
     },
     "cert_changed": true
   },
